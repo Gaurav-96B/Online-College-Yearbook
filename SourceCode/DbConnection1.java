@@ -1,5 +1,5 @@
 import java.sql.*;
-public class Dbconnection 
+public class Dbconnection1 
 {
 public static Connection getConnection() 
 {
