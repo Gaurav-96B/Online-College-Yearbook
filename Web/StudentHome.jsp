@@ -22,8 +22,8 @@
     <nav>
          <ul>
             <li><a href="Studenthome.jsp" class="active">Home</a></li>
-            <li><a href="StudentUpdateProfile.jsp">Update Profile</a></li>
-            <li><a href="StudentViewachievement.jsp">View Achievements</a></li>
+            <li><a href="StudentUpdate.jsp">Update Profile</a></li>
+            <li><a href="ViewStudentAchievement.jsp">View Achievements</a></li>
             <li><a href="Logout.jsp">Logout</a></li>
             
         </ul>
