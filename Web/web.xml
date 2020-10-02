@@ -29,6 +29,15 @@
 </servlet-mapping>  
   
   
+<servlet>  
+<servlet-name>servlet4</servlet-name>  
+<servlet-class>AddTeacherAchievementServlet</servlet-class>  
+</servlet>  
+<servlet-mapping>  
+<servlet-name>servlet4</servlet-name>  
+<url-pattern>/s4</url-pattern>  
+</servlet-mapping>  
+  
   
   
   
