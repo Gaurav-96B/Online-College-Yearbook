@@ -11,9 +11,9 @@ public void init()
 }
 public void doPost(HttpServletRequest req,HttpServletResponse res)throws ServletException,IOException  
 {
-HttpSession session=re.getSession(); 
+HttpSession session=res.getSession(); 
 session.invalidate();
-response.sendRedirect("index.html");
+res.sendRedirect("index.html");
 }
 public void destroy()
 {
