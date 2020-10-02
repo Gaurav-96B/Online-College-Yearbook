@@ -10,10 +10,10 @@
 
 <body>
     
-        <%
-        if (request.getParameter("msg") != null) {%>
-        <script>alert('Login Success..!');</script> 
-        <%}%>
+     <%
+     if (request.getParameter("msg") != null) {%>
+     <script>alert('Login Success..!');</script> 
+     <%}%>
     
     <header class="main-header">
         <center><h1>Development of Online College Year Book</h1></center>
@@ -21,10 +21,10 @@
     <!-- Dropdown Navbar -->
     <nav>
          <ul>
-            <li><a href="studenthome.jsp" class="active">Home</a></li>
-            <li><a href="supdateprofile.jsp">Update Profile</a></li>
-            <li><a href="sviewachievements.jsp">View Achievements</a></li>
-            <li><a href="logout.jsp">Logout</a></li>
+            <li><a href="Studenthome.jsp" class="active">Home</a></li>
+            <li><a href="StudentUpdateProfile.jsp">Update Profile</a></li>
+            <li><a href="StudentViewachievement.jsp">View Achievements</a></li>
+            <li><a href="Logout.jsp">Logout</a></li>
             
         </ul>
     </nav>
@@ -43,7 +43,7 @@
     <br>
     <!-- Main Footer -->
     <footer class="main-footer">
-        <p>Developed by <a href="https://www.1000projects.org" target="_blank"> 1000Projects </a></p>
+        <p>Developed by Gaurav Singh</p>
     </footer>
 </body>
 </html>
