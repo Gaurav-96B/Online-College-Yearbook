@@ -10,14 +10,14 @@
 
 <body>
     
-        <%
-        if (request.getParameter("msg") != null) {%>
-        <script>alert(' Details Updated Successfully..!');</script> 
-        <%}%>
-        <%
-        if (request.getParameter("m1") != null) {%>
-        <script>alert('Failed..!');</script> 
-        <%}%>
+      <%
+      if (request.getParameter("msg") != null) {%>
+      <script>alert(' Details Updated Successfully..!');</script> 
+      <%}%>
+      <%
+      if (request.getParameter("m1") != null) {%>
+      <script>alert('Failed..!');</script> 
+      <%}%>
     
     <!-- Main Header -->
     <header class="main-header">
@@ -26,10 +26,10 @@
     <!-- Dropdown Navbar -->
     <nav>
          <ul>
-            <li><a href="adminhome.jsp">Home</a></li>
-            <li><a href="teacherachievements.jsp">Teacher Achievements</a></li>
-            <li><a href="studentachievements.jsp" class="active">Student Achievements</a></li>
-            <li><a href="logout.jsp">Logout</a></li>
+            <li><a href="AdminHome.jsp">Home</a></li>
+            <li><a href="TeacherAchievement.jsp">Teacher Achievements</a></li>
+            <li><a href="StudentAchievement.jsp" class="active">Student Achievements</a></li>
+            <li><a href="Logout.jsp">Logout</a></li>
             
         </ul>
     </nav>
@@ -37,7 +37,7 @@
     <div class="form-div animated flip">
         <img src="img/user.png">
         <h2>Student Achievements</h2>
-        <form action="viewsachievements1.jsp" method="post">
+        <form action="ViewStudentAchievement1.jsp" method="post">
         <br>
         
         <select name="year" id="" required="">
@@ -83,7 +83,7 @@
     <br>
     <!-- Main Footer -->
     <footer class="main-footer">
-        <p>Developed by <a href="https://www.1000projects.org" target="_blank"> 1000Projects </a></p>
+        <p>Developed by Gaurav Singh</p>
     </footer>
 </body>
 
