@@ -37,7 +37,7 @@
     <div class="form-div animated flip">
         <img src="img/user.png">
         <h2>Add Achievements</h2>
-        <form action="addsachievementsact.jsp" method="post">
+        <form action="s3" method="post">
         <br>
         
         <select name="year" id="" required="">
