@@ -39,7 +39,25 @@
 </servlet-mapping>  
   
   
+    
+<servlet>  
+<servlet-name>servlet5</servlet-name>  
+<servlet-class>StudentUpdateServlet</servlet-class>  
+</servlet>  
+<servlet-mapping>  
+<servlet-name>servlet5</servlet-name>  
+<url-pattern>/s5</url-pattern>  
+</servlet-mapping>  
   
+  
+  <servlet>  
+<servlet-name>servlet6</servlet-name>  
+<servlet-class>TeacherUpdateServlet</servlet-class>  
+</servlet>  
+<servlet-mapping>  
+<servlet-name>servlet6</servlet-name>  
+<url-pattern>/s6</url-pattern>  
+</servlet-mapping>  
   
   
 
