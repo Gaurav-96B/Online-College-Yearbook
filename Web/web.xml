@@ -19,6 +19,15 @@
 </servlet-mapping>  
   
   
+ <servlet>  
+<servlet-name>servlet3</servlet-name>  
+<servlet-class>AddStudentAchievementServlet</servlet-class>  
+</servlet>  
+<servlet-mapping>  
+<servlet-name>servlet3</servlet-name>  
+<url-pattern>/s3</url-pattern>  
+</servlet-mapping>  
+  
   
   
   
