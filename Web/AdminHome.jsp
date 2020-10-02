@@ -10,10 +10,10 @@
 
 <body>
     
-        <%
-        if (request.getParameter("msg") != null) {%>
-        <script>alert('Login Success..!');</script> 
-        <%}%>
+     <%
+     if (request.getParameter("msg") != null) {%>
+     <script>alert('Login Success..!');</script> 
+     <%}%>
     
     <!-- Main Header -->
     <header class="main-header">
@@ -22,10 +22,10 @@
     <!-- Dropdown Navbar -->
     <nav>
          <ul>
-            <li><a href="adminhome.jsp" class="active">Home</a></li>
-            <li><a href="teacherachievements.jsp">Teacher Achievements</a></li>
-            <li><a href="studentachievements.jsp">Student Achievements</a></li>
-            <li><a href="logout.jsp">Logout</a></li>
+            <li><a href="AdminHome.jsp" class="active">Home</a></li>
+            <li><a href="TeacherAchievement.jsp">Teacher Achievements</a></li>
+            <li><a href="StudentAchievement.jsp">Student Achievements</a></li>
+            <li><a href="Logout.jsp">Logout</a></li>
             
         </ul>
     </nav>
@@ -42,7 +42,7 @@
     <br>
     <!-- Main Footer -->
     <footer class="main-footer">
-        <p>Developed by <a href="https://www.1000projects.org" target="_blank"> 1000Projects </a></p>
+        <p>Developed by Gaurav Singh</p>
     </footer>
 </body>
 </html>
