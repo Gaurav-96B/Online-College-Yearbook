@@ -12,6 +12,7 @@ public void init()
 public void doPost(HttpServletRequest req,HttpServletResponse res)throws ServletException,IOException 
 {
 PrintWriter pw=res.getWriter();
+res.setContentType("text/html");
 String username = req.getParameter("username");
 String email = req.getParameter("email");
 String id = req.getParameter("id");
