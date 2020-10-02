@@ -9,14 +9,14 @@
 </head>
 <body>
     
-        <%
-        if (request.getParameter("msg") != null) {%>
-        <script>alert('Success..!');</script> 
-        <%}%>
-        <%
-        if (request.getParameter("m1") != null) {%>
-        <script>alert('Failed..!');</script> 
-        <%}%>
+    <%
+    if (request.getParameter("msg") != null) {%>
+    <script>alert('Success..!');</script> 
+    <%}%>
+    <%
+    if (request.getParameter("m1") != null) {%>
+    <script>alert('Failed..!');</script> 
+    <%}%>
     
     <!-- Main Header -->
     <header class="main-header">
@@ -25,10 +25,10 @@
     <!-- Dropdown Navbar -->
     <nav>
          <ul>
-            <li><a href="adminhome.jsp">Home</a></li>
-            <li><a href="teacherachievements.jsp" class="active">Teacher Achievements</a></li>
-            <li><a href="studentachievements.jsp">Student Achievements</a></li>
-            <li><a href="logout.jsp">Logout</a></li>
+            <li><a href="AdminHome.jsp">Home</a></li>
+            <li><a href="TeacherAchievement.jsp" class="active">Teacher Achievements</a></li>
+            <li><a href="StudentAchievement.jsp">Student Achievements</a></li>
+            <li><a href="Logout.jsp">Logout</a></li>
             
         </ul>
     </nav>
@@ -98,7 +98,7 @@
     <br>
     <!-- Main Footer -->
     <footer class="main-footer">
-        <p>Developed by <a href="https://www.1000projects.org" target="_blank"> 1000Projects </a></p>
+        <p>Developed by Gaurav Singh</p>
     </footer>
   </body>
 </html>
