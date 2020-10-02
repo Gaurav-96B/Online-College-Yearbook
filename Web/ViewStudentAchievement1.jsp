@@ -19,10 +19,10 @@
     <!-- Dropdown Navbar -->
     <nav>
          <ul>
-            <li><a href="adminhome.jsp">Home</a></li>
-            <li><a href="teacherachievements.jsp">Teacher Achievements</a></li>
-            <li><a href="studentachievements.jsp" class="active">Student Achievements</a></li>
-            <li><a href="logout.jsp">Logout</a></li>
+            <li><a href="Adminhome.jsp">Home</a></li>
+            <li><a href="TeacherAchievement.jsp">Teacher Achievements</a></li>
+            <li><a href="StudentAchievement.jsp" class="active">Student Achievements</a></li>
+            <li><a href="Logout.jsp">Logout</a></li>
             
         </ul>
     </nav>
@@ -75,7 +75,7 @@
         <td><font color="black"><%=rs1.getString("username")%></td>
         <td><font color="black"><%=rs1.getString("yr")%></td>
         <td><font color="black"><%=rs1.getString("branch")%></td>
-        <td><a href="viewsachievements2.jsp?username=<%=rs1.getString("username")%>&year=<%=rs1.getString("yr")%>&branch=<%=rs1.getString("branch")%>"><button type="button">View Details</button></a></td>
+        <td><a href="ViewStudentAchievement2.jsp?username=<%=rs1.getString("username")%>&year=<%=rs1.getString("yr")%>&branch=<%=rs1.getString("branch")%>"><button type="button">View Details</button></a></td>
         </tr>
         <%
             }
@@ -85,13 +85,13 @@
         }
         %>
         </table>
-         <br/><br/><a href="viewsachievements.jsp"><button type="button">Back</button></a>
+         <br/><br/><a href="ViewStudentAchievement.jsp"><button type="button">Back</button></a>
         </center> 
         <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
     <br>
     <!-- Main Footer -->
     <footer class="main-footer">
-        <p>Developed by <a href="https://www.1000projects.org" target="_blank"> 1000Projects </a></p>
+        <p>Developed by Gaurav Singh</p>
     </footer>
 </body>
 
