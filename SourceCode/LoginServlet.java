@@ -37,7 +37,7 @@ Statement st = con.createStatement();
 ResultSet rs = st.executeQuery(query);
 if(rs.next())
 {    
-HttpSession session=re.getSession();  	
+HttpSession session=res.getSession();  	
 session.setAttribute("user", username);
 res.sendRedirect("studenthome.jsp?msg=success");
 }
@@ -51,7 +51,8 @@ if(utype.endsWith("Teacher"))
 String query = "select *from login where username='"+username+"' and password='"+password+"' and utype = '"+utype+"'";
 Statement st = con.createStatement();
 ResultSet rs = st.executeQuery(query);
-if(rs.next()){    
+if(rs.next()){  
+HttpSession session=res.getSession();
 session.setAttribute("user", username);
 res.sendRedirect("teacherhome.jsp?msg=success");
 }
